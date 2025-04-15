@@ -1,0 +1,41 @@
+/* Importing Playfair Display (matching body font) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  background-color: #0d0d0d; /* Dark Black Background */
+  color: #f1f1f1; /* Soft White Text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Make sure this matches import */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.HoverEffect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  transition: transform 0.7s ease;
+  perspective: 1000px; /* Enable 3D effects */
+}
+
+.HoverEffect img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.7s ease;
+  transform: translateZ(0); /* Ensures smooth GPU rendering */
+}
+
+.HoverEffect:hover img {
+  transform: scale(1.1); /* Removed invalid translatez(50px) */
+}
+
+button{
+  font-weight: bold !important;
+}

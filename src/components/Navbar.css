@@ -1,0 +1,97 @@
+/* Base styles */
+.navbar {
+    background-color: #fcfdff;
+    color: rgb(0, 0, 0);
+    padding: 16px 24px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  
+ .nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px; /* ✅ Add left and right padding */
+}
+
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Links */
+  .nav-links {
+    display: flex;
+    gap: 30px; /* You already have this, which is good */
+    align-items: center;
+  }
+  
+  
+  .nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+  }
+  
+  .nav-links a:hover {
+    color: #6fff89;
+  }
+  
+  /* Sign Up Button */
+  .signup-btn {
+    padding: 8px 16px;
+    background-color: #fdfeff;
+    border-radius: 6px;
+    font-weight: bold;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  .signup-btn:hover {
+    background-color: white;
+    color: #2563eb;
+  }
+  
+  /* Hamburger */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    transition: 0.4s;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: #ffffff;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+      display: none;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .hamburger {
+      display: flex;
+    }
+  }
+  
