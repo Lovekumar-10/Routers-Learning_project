@@ -1,16 +1,30 @@
-<<<<<<< HEAD
-# React + Vite
+# React Router Practice Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small project I created to **learn and practice React Router DOM**.  
+It includes examples of how to:
 
-Currently, two official plugins are available:
+- Connect different pages using React Router
+- Use `<BrowserRouter>`, `<Routes>`, and `<Route>`
+- Navigate between components like Home, About, and Contact
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🛠 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# Basic-app
->>>>>>> 0be4690e4c2b8e9e078f2db6aa914b34a09944f9
+- React.js
+- React Router DOM
+- JavaScript
+- HTML & CSS
+
+---
+
+## 📚 What I Learned
+
+- How to set up React Router in a project
+- How to create routes for multiple pages
+- How routing works inside a React app using `<BrowserRouter>`
+
+---
+
+
+This project is for **educational purposes only** and is part of my React learning journey.
